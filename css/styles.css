@@ -23,10 +23,12 @@ text-align: center;
 /* Section */
 .whiteSection{
   background-color: white;
+  padding: 10px 0 10px;
 }
 
 .colorSection{
 background-color: #F6F6F6;
+padding: 10px 0 10px;
 }
 
 /* Text */
@@ -41,6 +43,10 @@ text-align: center;
 .textAuthor
 {
   padding-top: 85px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -116,4 +122,18 @@ img
   transform: rotate(-90deg);
   padding: 100px;
 
+}
+
+.aboutMeDiv{
+  padding: 0 10px 50px;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  padding: 40px;
+}
+
+.stars{
+  padding: 30px;
 }

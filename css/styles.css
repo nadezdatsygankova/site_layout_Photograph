@@ -44,7 +44,6 @@ text-align: center;
 {
   padding-top: 85px;
   margin-left: 200px;
-  margin-right: 200px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -84,7 +83,7 @@ top: 87.94px;
 /* Grid section */
 .gridContainer
 {
-  display: flex;
+display: flex;
 padding: 3% 25% 7%;
 
 }
@@ -120,7 +119,12 @@ img
 .gridContainer ul{
   list-style-type: none;
   transform: rotate(-90deg);
-  padding: 100px;
+  padding-left: 00px;
+margin-left: 150px;
+padding-bottom: 0px;
+padding-right: 0px;
+padding-top: 300px;
+margin-top: 0px;
 
 }
 
@@ -131,9 +135,47 @@ img
 .icon{
   width: 50px;
   height: 50px;
-  padding: 40px;
+  padding: 60px;
 }
 
 .stars{
   padding: 30px;
+}
+
+.portfolioImg
+{
+  padding: 30px;
+}
+
+.footer
+{
+  width: 30px;
+  height: 30px;
+}
+.footerA
+{
+  padding: 10px 20px;
+}
+.button
+{
+   background: rgba(1, 4, 8, 0.95);
+   border-radius: 20px;
+   height: 13px;
+   color: #FFFFFF;
+   width: 122px;
+   font-size: 18px;
+   padding: 20px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 40px;
+}
+.end{
+font-family: Gilroy-Medium;
+font-size: 14px;
+text-align: center;
+color: #828282;
+margin: 20px 15px;
+
 }

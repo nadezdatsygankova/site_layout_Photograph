@@ -1,101 +1,110 @@
-body{
+body {
   text-align: center;
   font-family: 'Gilroy-Bold', sans-serif;
 }
-/* Heading */
-.author
-{
-font-size: 47.3392px;
-line-height: 59px;
-margin-right: 100px;
-}
-.headingSection
-{
-  font-size: 34px;
-line-height: 42px;
-text-align: center;
-}
-/* Containers */
-.fluidContainer{
-  padding: 3% 10% 1%;
+
+.wrapper {
+  max-width: 1445px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
+/* Heading */
+.author {
+  font-size: 47.3392px;
+  line-height: 59px;
+  margin-left: 11%;
+}
+
+.description{
+  padding-top: 30%;
+}
+
+.headingSection {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+/* Containers */
+/* .fluidContainer{
+  padding: 3% 10% 1%;
+} */
 /* Section */
-.whiteSection{
+.whiteSection {
   background-color: white;
   padding: 10px 0 10px;
 }
 
-.colorSection{
-background-color: #F6F6F6;
-padding: 10px 0 10px;
+.colorSection {
+  background-color: #F6F6F6;
+  padding: 10px 0 10px;
 }
 
 /* Text */
-.text
-{
-font-family: Gilroy-Medium;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
+.text {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
 }
 
-.textAuthor
-{
-  padding-top: 85px;
-  margin-left: 200px;
-  padding-left: 10px;
-  padding-right: 10px;
+/* .textAuthor {
+   margin-top: 30%;
+} */
+
+.column {
+  float: left;
+  width: 25%;
 }
 
+.columnIcon{
+  float: left;
+  width: 25%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-.topcontainer
-{
+.topcontainer {
   font-size: 18px;
   line-height: 22px;
   padding: 3% 15% 7%;
 }
 
-
-
 a {
   color: #828282;
-  text-decoration:none;
+  text-decoration: none;
   text-align: left;
   padding-left: 40px;
   padding-right: 40px;
 }
 
-.navbarHome
-{
+.navbarHome {
   color: #070707;
 }
 
-.hraftertop
-{
+.hraftertop {
   border: 1px solid #828282;
-transform: matrix(1, 0, 0, 1, 0, 0);
-width: 940.6px;
-height: 0px;
-left: 250.69px;
-top: 87.94px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 940.6px;
+  left: 250.69px;
+  top: 87.94px;
 }
+
 /* Grid section */
-.gridContainer
+/* .gridContainer
 {
 display: flex;
-padding: 3% 25% 7%;
+padding: 3% 17% 7%;
 
-}
-
-.gridOne
-{
+} */
+.gridOne {
   text-align: center;
-
 }
 
-img
-{
+img {
   width: 943.61px;
   height: 387px;
   left: 250.69px;
@@ -103,7 +112,7 @@ img
 }
 
 .gridContainer ul li a {
-  font-family:'Gilroy-Bold', sans-serif;
+  font-family: 'Gilroy-Bold', sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #828282;
@@ -111,71 +120,101 @@ img
   padding: 0 0;
 }
 
-.gridContainer ul li
-{
+.gridContainer ul li {
   display: inline-block;
 }
 
-.gridContainer ul{
+.gridContainer ul {
   list-style-type: none;
   transform: rotate(-90deg);
-  padding-left: 00px;
-margin-left: 150px;
-padding-bottom: 0px;
-padding-right: 0px;
-padding-top: 300px;
-margin-top: 0px;
+  padding-top: 60%;
 
 }
 
-.aboutMeDiv{
+.aboutMeDiv {
   padding: 0 10px 50px;
 }
 
-.icon{
+.icon {
   width: 50px;
   height: 50px;
   padding: 60px;
 }
 
-.stars{
+.icondiv
+{
+  width:30%;
+  margin: auto;
+}
+
+.stars {
+  padding: 50px;
+}
+
+.portfolioImg {
   padding: 30px;
 }
 
-.portfolioImg
-{
-  padding: 30px;
-}
-
-.footer
-{
+.footer {
   width: 30px;
   height: 30px;
 }
-.footerA
-{
+
+.footerA {
   padding: 10px 20px;
 }
-.button
-{
-   background: rgba(1, 4, 8, 0.95);
-   border-radius: 20px;
-   height: 13px;
-   color: #FFFFFF;
-   width: 122px;
-   font-size: 18px;
-   padding: 20px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-   margin: 40px;
-}
-.end{
-font-family: Gilroy-Medium;
-font-size: 14px;
-text-align: center;
-color: #828282;
-margin: 20px 15px;
 
+.button {
+  background: rgba(1, 4, 8, 0.95);
+  border-radius: 20px;
+  height: 13px;
+  color: #FFFFFF;
+  width: 122px;
+  font-size: 18px;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 40px;
+}
+
+.end {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  text-align: center;
+  color: #828282;
+  margin: 20px 15px;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+  .column {
+    width: 50%;
+  }
+  .columnIcon
+  {
+    width: 100%;
+  }
+  .menu {
+  width: 50px;
+  height: 50px;
+    margin-left: 90%;
+
+}
+.menu span {
+  display: block;
+  width: 90%;
+  height: 10px;
+  background: black;
+  margin: 6px auto;
+  border-radius: 6px;
+
+}
+nav{
+  display: none;
+
+}
 }

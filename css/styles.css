@@ -61,6 +61,7 @@ img {
   list-style-type: none;
   transform: rotate(-90deg);
   padding-top: 60%;
+margin-top: 10%;
 }
 .gridContainer ul li {
   display: inline-block;
@@ -134,9 +135,18 @@ img {
   color: #828282;
   margin: 20px 15px;
 }
+
+.picture{
+
+  width: 943.61px;
+  height: 387px;
+  left: 250.69px;
+  top: 276.94px;
+}
 @media screen and (max-width: 600px) {
   img {
-    width: 100%;
+    width: 316px;
+    height: 171px;
     padding: 5px;
   }
   .column {
@@ -168,4 +178,22 @@ img {
   nav {
     display: none;
   }
+  .button{
+    height: 42px;
+    width: 316px;
+    left: 29px;
+    top: 4102px;
+    border-radius: 50px;
+
+  }
+
+  .picture{
+
+    width: 400.5px;
+    height: 300px;
+    left: 29px;
+    top: 275px;
+  }
+
+
 }
